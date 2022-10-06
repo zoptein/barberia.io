@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title class="titulo-principal">Barberia de Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+      </style>
+  </head>
+  <body>
+    <header>
+      <div class="caja">
+        <h1><img src="imagenes/logo.png"></h1>
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active"href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <ul class="productos">
+            <li>
+                <h2>Cabello</h2>
+                <img src="imagenes/cabello.jpg">
+                <p class="producto-descripcion">Con tijera o maquina, a gusto del cliente</p>
+                <p class="producto-precio">$ 10.00</p>
+            </li>
+            <span class="salto-de-linea"><br></span>
+            <li>
+                <h2>Barba</h2>
+                <img src="imagenes/barba.jpg">
+                <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                <p class="producto-precio">$ 8.00</p>
+            </li>
+            <span class="salto-de-linea"><br></span>
+            <li>
+                <h2>Cabello + Barba</h2>
+                <img src="imagenes/cabello+barba.jpg">
+                <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                <p class="producto-precio">$ 15.00</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+      <img src="imagenes/logo-blanco.png">
+      <p class="Copyright">&copy;Copyright Barberia Alura - 2020</p>
+   </footer>
+</body>
+</html>
